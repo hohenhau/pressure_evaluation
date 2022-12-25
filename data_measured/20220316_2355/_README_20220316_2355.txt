@@ -1,0 +1,4 @@
+# Experiment: Flow field at wind tunnel outlet with turning vanes measured using a pitot rake
+# Scripts: run_interpolate, run_pitot_rake_velocity, and run_pitot_rake_field
+# specify sensor names and usage:
+Used sensors 0 to 8

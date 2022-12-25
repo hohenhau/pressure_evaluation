@@ -1,0 +1,20 @@
+# Experiment: Multi hole probe measurements at the outlet of a 18.5kW centrifugal fan
+# Scripts: run_interpolate, run_multi_hole_velocity, and run_multi_hole_field
+
+# Variables (run_measure_multi_hole_probe)
+switch_y_and_z = True
+connected_pressure_channels = [0, 1, 2, 3, 4, 5, 6] 
+
+# Variables (run_process_multi_hole_field)
+flip_x = True           # flip coordinates horizontally
+flip_y = False          # flip coordinates vertically
+no_edges = False        # ignore the outer measurements in calculating the averages
+no_corners_1 = False    # ignore single point located in each corner
+no_corners_3 = False    # ignore the three points located in each corner
+export_field = ['probe_x', 'probe_y', 'yaw_avg', 'pitch_avg', 'velocity_mag_avg', 'velocity_x_avg', 'velocity_x_std',
+                'velocity_y_avg', 'velocity_z_avg', 'turb_int']
+export_average = ['yaw_avg', 'pitch_avg', 'velocity_mag_avg', 'velocity_x_avg', 'velocity_x_std',
+                  'velocity_y_avg', 'velocity_z_avg', 'turb_int_avg']
+export_graph = ['velocity_mag_avg', 'velocity_x_avg', 'velocity_y_avg', 'velocity_z_avg', 'turb_int']
+export_limits = [[None, None], [None, None], [None, None], [None, None], [None, None]]
+glyph, scat, heat, cont = True, True, True, True

@@ -1,0 +1,14 @@
+# Experiment: Measurements taken during calibration
+# Scripts: run_interpolate, run_pitot_rake_velocity, run_multi_hole_field
+
+# Parameters to *CONVERT PITOT RAKE PRESSURES TO VELOCITIES* (run_pitot_rake_velocity)
+pitot_rake_channels = [0, 1, 2, 3, 4, 5, 6, 7]
+
+# Parameters to *ASSIGN PITOT RAKE VELOCITIES TO COORDINATES* (run_pitot_rake_field)
+pitot_rake_offsets = [0.000, 3.125, 6.250, 9.375, 12.500, 15.625, 18.750, 21.875]
+offset_in_x = True
+pitot_rake_export_field = ['probe_x', 'probe_y', 'V_avg', 'P_avg', 'V_std', 'P_std', 'V_cov', 'P_cov']
+pitot_rake_export_average = ['V_avg', 'P_avg', 'V_std', 'P_std', 'V_cov', 'P_cov']
+pitot_rake_export_graph = ['V_avg', 'V_std', 'V_cov']
+pitot_rake_export_limits = [[None, None], [None, None], [None, None], [None, None], [None, None]]
+pr_scat, pr_heat, pr_cont = True, True, True

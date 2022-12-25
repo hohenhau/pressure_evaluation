@@ -1,0 +1,855 @@
+2022-02-12 22:45:41,103 - Loading file: /Users/alex/Desktop/393x630mm_13x21pts_1x1growth.gcode
+2022-02-12 22:45:41,323 - Loaded /Users/alex/Desktop/393x630mm_13x21pts_1x1growth.gcode, 1394 lines
+2022-02-12 22:45:41,325 - 0.00mm of filament used in this print
+2022-02-12 22:45:41,325 - The print goes:
+2022-02-12 22:45:41,325 - - from 0.00 mm to 491.00 mm in X and is 491.00 mm wide
+2022-02-12 22:45:41,325 - - from 0.00 mm to 0.00 mm in Y and is 0.00 mm deep
+2022-02-12 22:45:41,326 - - from 0.00 mm to 10.00 mm in Z and is 10.00 mm high
+2022-02-12 22:45:41,326 - Estimated duration: 1 layers, 0:37:24
+2022-02-12 22:45:56,760 - Connecting...
+2022-02-12 22:45:58,355 - start
+2022-02-12 22:45:58,355 - Printer is now online.
+2022-02-12 22:45:58,355 - Marlin TH3D UFW 2.36
+2022-02-12 22:45:58,360 - echo: Last Updated: 07-08-2021 | Author: TH3D Studio
+2022-02-12 22:45:58,363 - echo:Compiled: Dec  5 2021
+2022-02-12 22:45:58,368 - echo: Free Memory: 10580  PlannerBufferBytes: 1200
+2022-02-12 22:46:02,818 - //action:notification TH3D UFW 2.36 Ready.
+2022-02-12 22:46:02,836 - echo:V83 stored settings retrieved (632 bytes; crc 30307)
+2022-02-12 22:46:02,880 - //action:prompt_end
+2022-02-12 22:46:05,322 - echo:SD card ok
+2022-02-12 22:46:13,515 - Print started at: 22:46:13
+2022-02-12 22:46:13,522 - echo:DEBUG:off
+2022-02-12 22:46:13,541 - //action:notification TH3D UFW 2.36 Ready.
+2022-02-12 22:46:13,549 - //action:notification Bed Heating...
+2022-02-12 22:46:13,553 - //action:notification TH3D UFW 2.36 Ready.
+2022-02-12 22:46:22,315 - echo:Unknown command: "sampling time = 8.0"
+2022-02-12 22:46:22,324 - echo:Unknown command: "length x = 393"
+2022-02-12 22:46:22,333 - echo:Unknown command: "length z = 630"
+2022-02-12 22:46:22,342 - echo:Unknown command: "margin x = 10"
+2022-02-12 22:46:22,350 - echo:Unknown command: "margin z = 10"
+2022-02-12 22:46:22,360 - echo:Unknown command: "points x = 13"
+2022-02-12 22:46:22,368 - echo:Unknown command: "points z = 21"
+2022-02-12 22:46:22,377 - echo:Unknown command: "growth x = 1"
+2022-02-12 22:46:22,386 - echo:Unknown command: "growth z = 1"
+2022-02-12 22:46:22,393 - echo:Unknown command: "tilt x = -2"
+2022-02-12 22:46:22,401 - echo:Unknown command: "tilt z = -4"
+2022-02-12 22:46:31,072 - //action:notification 17s
+2022-02-12 22:46:31,076 - echo:Print time: 17s
+2022-02-12 22:46:31,086 - echo:Unknown command: "X = 10.0, Z = 10.0"
+2022-02-12 22:46:39,728 - //action:notification 26s
+2022-02-12 22:46:39,731 - echo:Print time: 26s
+2022-02-12 22:46:39,742 - echo:Unknown command: "X = 41.08, Z = 10.0"
+2022-02-12 22:46:48,373 - //action:notification 34s
+2022-02-12 22:46:48,376 - echo:Print time: 34s
+2022-02-12 22:46:48,386 - echo:Unknown command: "X = 72.17, Z = 10.0"
+2022-02-12 22:46:57,025 - //action:notification 43s
+2022-02-12 22:46:57,029 - echo:Print time: 43s
+2022-02-12 22:46:57,039 - echo:Unknown command: "X = 103.25, Z = 10.0"
+2022-02-12 22:47:05,669 - //action:notification 52s
+2022-02-12 22:47:05,673 - echo:Print time: 52s
+2022-02-12 22:47:05,683 - echo:Unknown command: "X = 134.33, Z = 10.0"
+2022-02-12 22:47:14,313 - //action:notification 1m 0s
+2022-02-12 22:47:14,317 - echo:Print time: 1m 0s
+2022-02-12 22:47:14,327 - echo:Unknown command: "X = 165.42, Z = 10.0"
+2022-02-12 22:47:22,956 - //action:notification 1m 9s
+2022-02-12 22:47:22,960 - echo:Print time: 1m 9s
+2022-02-12 22:47:22,969 - echo:Unknown command: "X = 196.5, Z = 10.0"
+2022-02-12 22:47:31,600 - //action:notification 1m 18s
+2022-02-12 22:47:31,604 - echo:Print time: 1m 18s
+2022-02-12 22:47:31,614 - echo:Unknown command: "X = 227.58, Z = 10.0"
+2022-02-12 22:47:40,254 - //action:notification 1m 26s
+2022-02-12 22:47:40,258 - echo:Print time: 1m 26s
+2022-02-12 22:47:40,269 - echo:Unknown command: "X = 258.67, Z = 10.0"
+2022-02-12 22:47:48,898 - //action:notification 1m 35s
+2022-02-12 22:47:48,902 - echo:Print time: 1m 35s
+2022-02-12 22:47:48,913 - echo:Unknown command: "X = 289.75, Z = 10.0"
+2022-02-12 22:47:57,542 - //action:notification 1m 43s
+2022-02-12 22:47:57,546 - echo:Print time: 1m 43s
+2022-02-12 22:47:57,557 - echo:Unknown command: "X = 320.83, Z = 10.0"
+2022-02-12 22:48:06,186 - //action:notification 1m 52s
+2022-02-12 22:48:06,190 - echo:Print time: 1m 52s
+2022-02-12 22:48:06,200 - echo:Unknown command: "X = 351.92, Z = 10.0"
+2022-02-12 22:48:14,829 - //action:notification 2m 1s
+2022-02-12 22:48:14,833 - echo:Print time: 2m 1s
+2022-02-12 22:48:14,843 - echo:Unknown command: "X = 383.0, Z = 10.0"
+2022-02-12 22:48:25,605 - //action:notification 2m 12s
+2022-02-12 22:48:25,609 - echo:Print time: 2m 12s
+2022-02-12 22:48:25,619 - echo:Unknown command: "X = 10.0, Z = 40.5"
+2022-02-12 22:48:34,248 - //action:notification 2m 20s
+2022-02-12 22:48:34,252 - echo:Print time: 2m 20s
+2022-02-12 22:48:34,261 - echo:Unknown command: "X = 41.08, Z = 40.5"
+2022-02-12 22:48:42,898 - //action:notification 2m 29s
+2022-02-12 22:48:42,902 - echo:Print time: 2m 29s
+2022-02-12 22:48:42,913 - echo:Unknown command: "X = 72.17, Z = 40.5"
+2022-02-12 22:48:51,542 - //action:notification 2m 37s
+2022-02-12 22:48:51,546 - echo:Print time: 2m 37s
+2022-02-12 22:48:51,556 - echo:Unknown command: "X = 103.25, Z = 40.5"
+2022-02-12 22:49:00,185 - //action:notification 2m 46s
+2022-02-12 22:49:00,189 - echo:Print time: 2m 46s
+2022-02-12 22:49:00,199 - echo:Unknown command: "X = 134.33, Z = 40.5"
+2022-02-12 22:49:08,832 - //action:notification 2m 55s
+2022-02-12 22:49:08,836 - echo:Print time: 2m 55s
+2022-02-12 22:49:08,847 - echo:Unknown command: "X = 165.42, Z = 40.5"
+2022-02-12 22:49:17,487 - //action:notification 3m 3s
+2022-02-12 22:49:17,491 - echo:Print time: 3m 3s
+2022-02-12 22:49:17,501 - echo:Unknown command: "X = 196.5, Z = 40.5"
+2022-02-12 22:49:26,129 - //action:notification 3m 12s
+2022-02-12 22:49:26,133 - echo:Print time: 3m 12s
+2022-02-12 22:49:26,143 - echo:Unknown command: "X = 227.58, Z = 40.5"
+2022-02-12 22:49:34,774 - //action:notification 3m 21s
+2022-02-12 22:49:34,778 - echo:Print time: 3m 21s
+2022-02-12 22:49:34,789 - echo:Unknown command: "X = 258.67, Z = 40.5"
+2022-02-12 22:49:43,420 - //action:notification 3m 29s
+2022-02-12 22:49:43,424 - echo:Print time: 3m 29s
+2022-02-12 22:49:43,434 - echo:Unknown command: "X = 289.75, Z = 40.5"
+2022-02-12 22:49:52,093 - //action:notification 3m 38s
+2022-02-12 22:49:52,097 - echo:Print time: 3m 38s
+2022-02-12 22:49:52,114 - echo:Unknown command: "X = 320.83, Z = 40.5"
+2022-02-12 22:50:00,745 - //action:notification 3m 47s
+2022-02-12 22:50:00,749 - echo:Print time: 3m 47s
+2022-02-12 22:50:00,760 - echo:Unknown command: "X = 351.92, Z = 40.5"
+2022-02-12 22:50:09,429 - //action:notification 3m 55s
+2022-02-12 22:50:09,433 - echo:Print time: 3m 55s
+2022-02-12 22:50:09,443 - echo:Unknown command: "X = 383.0, Z = 40.5"
+2022-02-12 22:50:20,211 - //action:notification 4m 6s
+2022-02-12 22:50:20,214 - echo:Print time: 4m 6s
+2022-02-12 22:50:20,224 - echo:Unknown command: "X = 10.0, Z = 71.0"
+2022-02-12 22:50:28,853 - //action:notification 4m 15s
+2022-02-12 22:50:28,857 - echo:Print time: 4m 15s
+2022-02-12 22:50:28,868 - echo:Unknown command: "X = 41.08, Z = 71.0"
+2022-02-12 22:50:37,499 - //action:notification 4m 23s
+2022-02-12 22:50:37,503 - echo:Print time: 4m 23s
+2022-02-12 22:50:37,513 - echo:Unknown command: "X = 72.17, Z = 71.0"
+2022-02-12 22:50:46,144 - //action:notification 4m 32s
+2022-02-12 22:50:46,148 - echo:Print time: 4m 32s
+2022-02-12 22:50:46,158 - echo:Unknown command: "X = 103.25, Z = 71.0"
+2022-02-12 22:50:54,798 - //action:notification 4m 41s
+2022-02-12 22:50:54,802 - echo:Print time: 4m 41s
+2022-02-12 22:50:54,813 - echo:Unknown command: "X = 134.33, Z = 71.0"
+2022-02-12 22:51:03,444 - //action:notification 4m 49s
+2022-02-12 22:51:03,448 - echo:Print time: 4m 49s
+2022-02-12 22:51:03,458 - echo:Unknown command: "X = 165.42, Z = 71.0"
+2022-02-12 22:51:12,086 - //action:notification 4m 58s
+2022-02-12 22:51:12,090 - echo:Print time: 4m 58s
+2022-02-12 22:51:12,100 - echo:Unknown command: "X = 196.5, Z = 71.0"
+2022-02-12 22:51:20,728 - //action:notification 5m 7s
+2022-02-12 22:51:20,732 - echo:Print time: 5m 7s
+2022-02-12 22:51:20,743 - echo:Unknown command: "X = 227.58, Z = 71.0"
+2022-02-12 22:51:29,389 - //action:notification 5m 15s
+2022-02-12 22:51:29,393 - echo:Print time: 5m 15s
+2022-02-12 22:51:29,403 - echo:Unknown command: "X = 258.67, Z = 71.0"
+2022-02-12 22:51:38,029 - //action:notification 5m 24s
+2022-02-12 22:51:38,033 - echo:Print time: 5m 24s
+2022-02-12 22:51:38,043 - echo:Unknown command: "X = 289.75, Z = 71.0"
+2022-02-12 22:51:46,682 - //action:notification 5m 33s
+2022-02-12 22:51:46,686 - echo:Print time: 5m 33s
+2022-02-12 22:51:46,696 - echo:Unknown command: "X = 320.83, Z = 71.0"
+2022-02-12 22:51:55,326 - //action:notification 5m 41s
+2022-02-12 22:51:55,330 - echo:Print time: 5m 41s
+2022-02-12 22:51:55,341 - echo:Unknown command: "X = 351.92, Z = 71.0"
+2022-02-12 22:52:03,970 - //action:notification 5m 50s
+2022-02-12 22:52:03,974 - echo:Print time: 5m 50s
+2022-02-12 22:52:03,984 - echo:Unknown command: "X = 383.0, Z = 71.0"
+2022-02-12 22:52:14,751 - //action:notification 6m 1s
+2022-02-12 22:52:14,755 - echo:Print time: 6m 1s
+2022-02-12 22:52:14,766 - echo:Unknown command: "X = 10.0, Z = 101.5"
+2022-02-12 22:52:23,431 - //action:notification 6m 9s
+2022-02-12 22:52:23,435 - echo:Print time: 6m 9s
+2022-02-12 22:52:23,466 - echo:Unknown command: "X = 41.08, Z = 101.5"
+2022-02-12 22:52:32,096 - //action:notification 6m 18s
+2022-02-12 22:52:32,100 - echo:Print time: 6m 18s
+2022-02-12 22:52:32,110 - echo:Unknown command: "X = 72.17, Z = 101.5"
+2022-02-12 22:52:40,773 - //action:notification 6m 27s
+2022-02-12 22:52:40,777 - echo:Print time: 6m 27s
+2022-02-12 22:52:40,789 - echo:Unknown command: "X = 103.25, Z = 101.5"
+2022-02-12 22:52:49,418 - //action:notification 6m 35s
+2022-02-12 22:52:49,423 - echo:Print time: 6m 35s
+2022-02-12 22:52:49,434 - echo:Unknown command: "X = 134.33, Z = 101.5"
+2022-02-12 22:52:58,064 - //action:notification 6m 44s
+2022-02-12 22:52:58,068 - echo:Print time: 6m 44s
+2022-02-12 22:52:58,079 - echo:Unknown command: "X = 165.42, Z = 101.5"
+2022-02-12 22:53:06,723 - //action:notification 6m 53s
+2022-02-12 22:53:06,727 - echo:Print time: 6m 53s
+2022-02-12 22:53:06,737 - echo:Unknown command: "X = 196.5, Z = 101.5"
+2022-02-12 22:53:15,368 - //action:notification 7m 1s
+2022-02-12 22:53:15,372 - echo:Print time: 7m 1s
+2022-02-12 22:53:15,383 - echo:Unknown command: "X = 227.58, Z = 101.5"
+2022-02-12 22:53:24,010 - //action:notification 7m 10s
+2022-02-12 22:53:24,015 - echo:Print time: 7m 10s
+2022-02-12 22:53:24,026 - echo:Unknown command: "X = 258.67, Z = 101.5"
+2022-02-12 22:53:32,658 - //action:notification 7m 19s
+2022-02-12 22:53:32,663 - echo:Print time: 7m 19s
+2022-02-12 22:53:32,674 - echo:Unknown command: "X = 289.75, Z = 101.5"
+2022-02-12 22:53:41,304 - //action:notification 7m 27s
+2022-02-12 22:53:41,308 - echo:Print time: 7m 27s
+2022-02-12 22:53:41,319 - echo:Unknown command: "X = 320.83, Z = 101.5"
+2022-02-12 22:53:49,974 - //action:notification 7m 36s
+2022-02-12 22:53:49,978 - echo:Print time: 7m 36s
+2022-02-12 22:53:49,989 - echo:Unknown command: "X = 351.92, Z = 101.5"
+2022-02-12 22:53:58,632 - //action:notification 7m 45s
+2022-02-12 22:53:58,636 - echo:Print time: 7m 45s
+2022-02-12 22:53:58,647 - echo:Unknown command: "X = 383.0, Z = 101.5"
+2022-02-12 22:54:09,416 - //action:notification 7m 55s
+2022-02-12 22:54:09,421 - echo:Print time: 7m 55s
+2022-02-12 22:54:09,431 - echo:Unknown command: "X = 10.0, Z = 132.0"
+2022-02-12 22:54:18,060 - //action:notification 8m 4s
+2022-02-12 22:54:18,064 - echo:Print time: 8m 4s
+2022-02-12 22:54:18,075 - echo:Unknown command: "X = 41.08, Z = 132.0"
+2022-02-12 22:54:26,716 - //action:notification 8m 13s
+2022-02-12 22:54:26,720 - echo:Print time: 8m 13s
+2022-02-12 22:54:26,731 - echo:Unknown command: "X = 72.17, Z = 132.0"
+2022-02-12 22:54:35,372 - //action:notification 8m 21s
+2022-02-12 22:54:35,376 - echo:Print time: 8m 21s
+2022-02-12 22:54:35,387 - echo:Unknown command: "X = 103.25, Z = 132.0"
+2022-02-12 22:54:44,017 - //action:notification 8m 30s
+2022-02-12 22:54:44,021 - echo:Print time: 8m 30s
+2022-02-12 22:54:44,032 - echo:Unknown command: "X = 134.33, Z = 132.0"
+2022-02-12 22:54:52,664 - //action:notification 8m 39s
+2022-02-12 22:54:52,668 - echo:Print time: 8m 39s
+2022-02-12 22:54:52,679 - echo:Unknown command: "X = 165.42, Z = 132.0"
+2022-02-12 22:55:01,308 - //action:notification 8m 47s
+2022-02-12 22:55:01,312 - echo:Print time: 8m 47s
+2022-02-12 22:55:01,323 - echo:Unknown command: "X = 196.5, Z = 132.0"
+2022-02-12 22:55:09,953 - //action:notification 8m 56s
+2022-02-12 22:55:09,957 - echo:Print time: 8m 56s
+2022-02-12 22:55:09,968 - echo:Unknown command: "X = 227.58, Z = 132.0"
+2022-02-12 22:55:18,611 - //action:notification 9m 5s
+2022-02-12 22:55:18,615 - echo:Print time: 9m 5s
+2022-02-12 22:55:18,645 - echo:Unknown command: "X = 258.67, Z = 132.0"
+2022-02-12 22:55:27,298 - //action:notification 9m 13s
+2022-02-12 22:55:27,302 - echo:Print time: 9m 13s
+2022-02-12 22:55:27,313 - echo:Unknown command: "X = 289.75, Z = 132.0"
+2022-02-12 22:55:35,971 - //action:notification 9m 22s
+2022-02-12 22:55:35,975 - echo:Print time: 9m 22s
+2022-02-12 22:55:35,985 - echo:Unknown command: "X = 320.83, Z = 132.0"
+2022-02-12 22:55:44,616 - //action:notification 9m 31s
+2022-02-12 22:55:44,620 - echo:Print time: 9m 31s
+2022-02-12 22:55:44,632 - echo:Unknown command: "X = 351.92, Z = 132.0"
+2022-02-12 22:55:53,263 - //action:notification 9m 39s
+2022-02-12 22:55:53,267 - echo:Print time: 9m 39s
+2022-02-12 22:55:53,277 - echo:Unknown command: "X = 383.0, Z = 132.0"
+2022-02-12 22:56:04,044 - //action:notification 9m 50s
+2022-02-12 22:56:04,048 - echo:Print time: 9m 50s
+2022-02-12 22:56:04,057 - echo:Unknown command: "X = 10.0, Z = 162.5"
+2022-02-12 22:56:12,686 - //action:notification 9m 59s
+2022-02-12 22:56:12,690 - echo:Print time: 9m 59s
+2022-02-12 22:56:12,700 - echo:Unknown command: "X = 41.08, Z = 162.5"
+2022-02-12 22:56:21,347 - //action:notification 10m 7s
+2022-02-12 22:56:21,351 - echo:Print time: 10m 7s
+2022-02-12 22:56:21,361 - echo:Unknown command: "X = 72.17, Z = 162.5"
+2022-02-12 22:56:29,991 - //action:notification 10m 16s
+2022-02-12 22:56:29,995 - echo:Print time: 10m 16s
+2022-02-12 22:56:30,006 - echo:Unknown command: "X = 103.25, Z = 162.5"
+2022-02-12 22:56:38,653 - //action:notification 10m 25s
+2022-02-12 22:56:38,657 - echo:Print time: 10m 25s
+2022-02-12 22:56:38,667 - echo:Unknown command: "X = 134.33, Z = 162.5"
+2022-02-12 22:56:47,299 - //action:notification 10m 33s
+2022-02-12 22:56:47,303 - echo:Print time: 10m 33s
+2022-02-12 22:56:47,314 - echo:Unknown command: "X = 165.42, Z = 162.5"
+2022-02-12 22:56:55,944 - //action:notification 10m 42s
+2022-02-12 22:56:55,948 - echo:Print time: 10m 42s
+2022-02-12 22:56:55,958 - echo:Unknown command: "X = 196.5, Z = 162.5"
+2022-02-12 22:57:04,588 - //action:notification 10m 51s
+2022-02-12 22:57:04,592 - echo:Print time: 10m 51s
+2022-02-12 22:57:04,602 - echo:Unknown command: "X = 227.58, Z = 162.5"
+2022-02-12 22:57:13,234 - //action:notification 10m 59s
+2022-02-12 22:57:13,238 - echo:Print time: 10m 59s
+2022-02-12 22:57:13,249 - echo:Unknown command: "X = 258.67, Z = 162.5"
+2022-02-12 22:57:21,893 - //action:notification 11m 8s
+2022-02-12 22:57:21,897 - echo:Print time: 11m 8s
+2022-02-12 22:57:21,908 - echo:Unknown command: "X = 289.75, Z = 162.5"
+2022-02-12 22:57:30,539 - //action:notification 11m 17s
+2022-02-12 22:57:30,543 - echo:Print time: 11m 17s
+2022-02-12 22:57:30,554 - echo:Unknown command: "X = 320.83, Z = 162.5"
+2022-02-12 22:57:39,183 - //action:notification 11m 25s
+2022-02-12 22:57:39,188 - echo:Print time: 11m 25s
+2022-02-12 22:57:39,198 - echo:Unknown command: "X = 351.92, Z = 162.5"
+2022-02-12 22:57:47,842 - //action:notification 11m 34s
+2022-02-12 22:57:47,847 - echo:Print time: 11m 34s
+2022-02-12 22:57:47,856 - echo:Unknown command: "X = 383.0, Z = 162.5"
+2022-02-12 22:57:58,611 - //action:notification 11m 45s
+2022-02-12 22:57:58,615 - echo:Print time: 11m 45s
+2022-02-12 22:57:58,626 - echo:Unknown command: "X = 10.0, Z = 193.0"
+2022-02-12 22:58:07,256 - //action:notification 11m 53s
+2022-02-12 22:58:07,260 - echo:Print time: 11m 53s
+2022-02-12 22:58:07,271 - echo:Unknown command: "X = 41.08, Z = 193.0"
+2022-02-12 22:58:15,902 - //action:notification 12m 2s
+2022-02-12 22:58:15,905 - echo:Print time: 12m 2s
+2022-02-12 22:58:15,916 - echo:Unknown command: "X = 72.17, Z = 193.0"
+2022-02-12 22:58:24,547 - //action:notification 12m 11s
+2022-02-12 22:58:24,552 - echo:Print time: 12m 11s
+2022-02-12 22:58:24,563 - echo:Unknown command: "X = 103.25, Z = 193.0"
+2022-02-12 22:58:33,192 - //action:notification 12m 19s
+2022-02-12 22:58:33,196 - echo:Print time: 12m 19s
+2022-02-12 22:58:33,207 - echo:Unknown command: "X = 134.33, Z = 193.0"
+2022-02-12 22:58:41,848 - //action:notification 12m 28s
+2022-02-12 22:58:41,852 - echo:Print time: 12m 28s
+2022-02-12 22:58:41,863 - echo:Unknown command: "X = 165.42, Z = 193.0"
+2022-02-12 22:58:50,495 - //action:notification 12m 36s
+2022-02-12 22:58:50,499 - echo:Print time: 12m 36s
+2022-02-12 22:58:50,509 - echo:Unknown command: "X = 196.5, Z = 193.0"
+2022-02-12 22:58:59,140 - //action:notification 12m 45s
+2022-02-12 22:58:59,144 - echo:Print time: 12m 45s
+2022-02-12 22:58:59,155 - echo:Unknown command: "X = 227.58, Z = 193.0"
+2022-02-12 22:59:07,787 - //action:notification 12m 54s
+2022-02-12 22:59:07,791 - echo:Print time: 12m 54s
+2022-02-12 22:59:07,802 - echo:Unknown command: "X = 258.67, Z = 193.0"
+2022-02-12 22:59:16,431 - //action:notification 13m 2s
+2022-02-12 22:59:16,435 - echo:Print time: 13m 2s
+2022-02-12 22:59:16,446 - echo:Unknown command: "X = 289.75, Z = 193.0"
+2022-02-12 22:59:25,087 - //action:notification 13m 11s
+2022-02-12 22:59:25,091 - echo:Print time: 13m 11s
+2022-02-12 22:59:25,102 - echo:Unknown command: "X = 320.83, Z = 193.0"
+2022-02-12 22:59:33,743 - //action:notification 13m 20s
+2022-02-12 22:59:33,748 - echo:Print time: 13m 20s
+2022-02-12 22:59:33,758 - echo:Unknown command: "X = 351.92, Z = 193.0"
+2022-02-12 22:59:42,388 - //action:notification 13m 28s
+2022-02-12 22:59:42,393 - echo:Print time: 13m 28s
+2022-02-12 22:59:42,403 - echo:Unknown command: "X = 383.0, Z = 193.0"
+2022-02-12 22:59:53,172 - //action:notification 13m 39s
+2022-02-12 22:59:53,177 - echo:Print time: 13m 39s
+2022-02-12 22:59:53,187 - echo:Unknown command: "X = 10.0, Z = 223.5"
+2022-02-12 23:00:01,830 - //action:notification 13m 48s
+2022-02-12 23:00:01,834 - echo:Print time: 13m 48s
+2022-02-12 23:00:01,844 - echo:Unknown command: "X = 41.08, Z = 223.5"
+2022-02-12 23:00:10,477 - //action:notification 13m 56s
+2022-02-12 23:00:10,481 - echo:Print time: 13m 56s
+2022-02-12 23:00:10,491 - echo:Unknown command: "X = 72.17, Z = 223.5"
+2022-02-12 23:00:19,122 - //action:notification 14m 5s
+2022-02-12 23:00:19,126 - echo:Print time: 14m 5s
+2022-02-12 23:00:19,161 - echo:Unknown command: "X = 103.25, Z = 223.5"
+2022-02-12 23:00:27,813 - //action:notification 14m 14s
+2022-02-12 23:00:27,817 - echo:Print time: 14m 14s
+2022-02-12 23:00:27,829 - echo:Unknown command: "X = 134.33, Z = 223.5"
+2022-02-12 23:00:36,493 - //action:notification 14m 22s
+2022-02-12 23:00:36,497 - echo:Print time: 14m 22s
+2022-02-12 23:00:36,507 - echo:Unknown command: "X = 165.42, Z = 223.5"
+2022-02-12 23:00:45,139 - //action:notification 14m 31s
+2022-02-12 23:00:45,143 - echo:Print time: 14m 31s
+2022-02-12 23:00:45,154 - echo:Unknown command: "X = 196.5, Z = 223.5"
+2022-02-12 23:00:53,797 - //action:notification 14m 40s
+2022-02-12 23:00:53,801 - echo:Print time: 14m 40s
+2022-02-12 23:00:53,811 - echo:Unknown command: "X = 227.58, Z = 223.5"
+2022-02-12 23:01:02,441 - //action:notification 14m 48s
+2022-02-12 23:01:02,446 - echo:Print time: 14m 48s
+2022-02-12 23:01:02,456 - echo:Unknown command: "X = 258.67, Z = 223.5"
+2022-02-12 23:01:11,083 - //action:notification 14m 57s
+2022-02-12 23:01:11,087 - echo:Print time: 14m 57s
+2022-02-12 23:01:11,098 - echo:Unknown command: "X = 289.75, Z = 223.5"
+2022-02-12 23:01:19,728 - //action:notification 15m 6s
+2022-02-12 23:01:19,733 - echo:Print time: 15m 6s
+2022-02-12 23:01:19,743 - echo:Unknown command: "X = 320.83, Z = 223.5"
+2022-02-12 23:01:28,371 - //action:notification 15m 14s
+2022-02-12 23:01:28,376 - echo:Print time: 15m 14s
+2022-02-12 23:01:28,387 - echo:Unknown command: "X = 351.92, Z = 223.5"
+2022-02-12 23:01:37,028 - //action:notification 15m 23s
+2022-02-12 23:01:37,033 - echo:Print time: 15m 23s
+2022-02-12 23:01:37,043 - echo:Unknown command: "X = 383.0, Z = 223.5"
+2022-02-12 23:01:47,812 - //action:notification 15m 34s
+2022-02-12 23:01:47,817 - echo:Print time: 15m 34s
+2022-02-12 23:01:47,827 - echo:Unknown command: "X = 10.0, Z = 254.0"
+2022-02-12 23:01:56,456 - //action:notification 15m 42s
+2022-02-12 23:01:56,461 - echo:Print time: 15m 42s
+2022-02-12 23:01:56,471 - echo:Unknown command: "X = 41.08, Z = 254.0"
+2022-02-12 23:02:05,102 - //action:notification 15m 51s
+2022-02-12 23:02:05,106 - echo:Print time: 15m 51s
+2022-02-12 23:02:05,117 - echo:Unknown command: "X = 72.17, Z = 254.0"
+2022-02-12 23:02:13,760 - //action:notification 16m 0s
+2022-02-12 23:02:13,764 - echo:Print time: 16m 0s
+2022-02-12 23:02:13,775 - echo:Unknown command: "X = 103.25, Z = 254.0"
+2022-02-12 23:02:22,406 - //action:notification 16m 8s
+2022-02-12 23:02:22,410 - echo:Print time: 16m 8s
+2022-02-12 23:02:22,422 - echo:Unknown command: "X = 134.33, Z = 254.0"
+2022-02-12 23:02:31,054 - //action:notification 16m 17s
+2022-02-12 23:02:31,058 - echo:Print time: 16m 17s
+2022-02-12 23:02:31,069 - echo:Unknown command: "X = 165.42, Z = 254.0"
+2022-02-12 23:02:39,700 - //action:notification 16m 26s
+2022-02-12 23:02:39,705 - echo:Print time: 16m 26s
+2022-02-12 23:02:39,715 - echo:Unknown command: "X = 196.5, Z = 254.0"
+2022-02-12 23:02:48,367 - //action:notification 16m 34s
+2022-02-12 23:02:48,371 - echo:Print time: 16m 34s
+2022-02-12 23:02:48,382 - echo:Unknown command: "X = 227.58, Z = 254.0"
+2022-02-12 23:02:57,024 - //action:notification 16m 43s
+2022-02-12 23:02:57,028 - echo:Print time: 16m 43s
+2022-02-12 23:02:57,038 - echo:Unknown command: "X = 258.67, Z = 254.0"
+2022-02-12 23:03:05,686 - //action:notification 16m 52s
+2022-02-12 23:03:05,690 - echo:Print time: 16m 52s
+2022-02-12 23:03:05,701 - echo:Unknown command: "X = 289.75, Z = 254.0"
+2022-02-12 23:03:14,330 - //action:notification 17m 0s
+2022-02-12 23:03:14,334 - echo:Print time: 17m 0s
+2022-02-12 23:03:14,345 - echo:Unknown command: "X = 320.83, Z = 254.0"
+2022-02-12 23:03:22,975 - //action:notification 17m 9s
+2022-02-12 23:03:22,979 - echo:Print time: 17m 9s
+2022-02-12 23:03:22,989 - echo:Unknown command: "X = 351.92, Z = 254.0"
+2022-02-12 23:03:31,620 - //action:notification 17m 18s
+2022-02-12 23:03:31,625 - echo:Print time: 17m 18s
+2022-02-12 23:03:31,634 - echo:Unknown command: "X = 383.0, Z = 254.0"
+2022-02-12 23:03:42,393 - //action:notification 17m 28s
+2022-02-12 23:03:42,397 - echo:Print time: 17m 28s
+2022-02-12 23:03:42,408 - echo:Unknown command: "X = 10.0, Z = 284.5"
+2022-02-12 23:03:51,044 - //action:notification 17m 37s
+2022-02-12 23:03:51,048 - echo:Print time: 17m 37s
+2022-02-12 23:03:51,060 - echo:Unknown command: "X = 41.08, Z = 284.5"
+2022-02-12 23:03:59,689 - //action:notification 17m 46s
+2022-02-12 23:03:59,693 - echo:Print time: 17m 46s
+2022-02-12 23:03:59,703 - echo:Unknown command: "X = 72.17, Z = 284.5"
+2022-02-12 23:04:08,346 - //action:notification 17m 54s
+2022-02-12 23:04:08,350 - echo:Print time: 17m 54s
+2022-02-12 23:04:08,361 - echo:Unknown command: "X = 103.25, Z = 284.5"
+2022-02-12 23:04:16,991 - //action:notification 18m 3s
+2022-02-12 23:04:16,995 - echo:Print time: 18m 3s
+2022-02-12 23:04:17,005 - echo:Unknown command: "X = 134.33, Z = 284.5"
+2022-02-12 23:04:25,647 - //action:notification 18m 12s
+2022-02-12 23:04:25,651 - echo:Print time: 18m 12s
+2022-02-12 23:04:25,662 - echo:Unknown command: "X = 165.42, Z = 284.5"
+2022-02-12 23:04:34,292 - //action:notification 18m 20s
+2022-02-12 23:04:34,296 - echo:Print time: 18m 20s
+2022-02-12 23:04:34,306 - echo:Unknown command: "X = 196.5, Z = 284.5"
+2022-02-12 23:04:42,937 - //action:notification 18m 29s
+2022-02-12 23:04:42,941 - echo:Print time: 18m 29s
+2022-02-12 23:04:42,951 - echo:Unknown command: "X = 227.58, Z = 284.5"
+2022-02-12 23:04:51,579 - //action:notification 18m 38s
+2022-02-12 23:04:51,583 - echo:Print time: 18m 38s
+2022-02-12 23:04:51,594 - echo:Unknown command: "X = 258.67, Z = 284.5"
+2022-02-12 23:05:00,225 - //action:notification 18m 46s
+2022-02-12 23:05:00,229 - echo:Print time: 18m 46s
+2022-02-12 23:05:00,240 - echo:Unknown command: "X = 289.75, Z = 284.5"
+2022-02-12 23:05:08,880 - //action:notification 18m 55s
+2022-02-12 23:05:08,884 - echo:Print time: 18m 55s
+2022-02-12 23:05:08,895 - echo:Unknown command: "X = 320.83, Z = 284.5"
+2022-02-12 23:05:17,548 - //action:notification 19m 4s
+2022-02-12 23:05:17,552 - echo:Print time: 19m 4s
+2022-02-12 23:05:17,563 - echo:Unknown command: "X = 351.92, Z = 284.5"
+2022-02-12 23:05:26,193 - //action:notification 19m 12s
+2022-02-12 23:05:26,197 - echo:Print time: 19m 12s
+2022-02-12 23:05:26,208 - echo:Unknown command: "X = 383.0, Z = 284.5"
+2022-02-12 23:05:36,988 - //action:notification 19m 23s
+2022-02-12 23:05:36,992 - echo:Print time: 19m 23s
+2022-02-12 23:05:37,002 - echo:Unknown command: "X = 10.0, Z = 315.0"
+2022-02-12 23:05:45,644 - //action:notification 19m 32s
+2022-02-12 23:05:45,648 - echo:Print time: 19m 32s
+2022-02-12 23:05:45,659 - echo:Unknown command: "X = 41.08, Z = 315.0"
+2022-02-12 23:05:54,291 - //action:notification 19m 40s
+2022-02-12 23:05:54,296 - echo:Print time: 19m 40s
+2022-02-12 23:05:54,306 - echo:Unknown command: "X = 72.17, Z = 315.0"
+2022-02-12 23:06:02,935 - //action:notification 19m 49s
+2022-02-12 23:06:02,939 - echo:Print time: 19m 49s
+2022-02-12 23:06:02,950 - echo:Unknown command: "X = 103.25, Z = 315.0"
+2022-02-12 23:06:11,581 - //action:notification 19m 58s
+2022-02-12 23:06:11,585 - echo:Print time: 19m 58s
+2022-02-12 23:06:11,596 - echo:Unknown command: "X = 134.33, Z = 315.0"
+2022-02-12 23:06:20,228 - //action:notification 20m 6s
+2022-02-12 23:06:20,232 - echo:Print time: 20m 6s
+2022-02-12 23:06:20,243 - echo:Unknown command: "X = 165.42, Z = 315.0"
+2022-02-12 23:06:28,873 - //action:notification 20m 15s
+2022-02-12 23:06:28,877 - echo:Print time: 20m 15s
+2022-02-12 23:06:28,888 - echo:Unknown command: "X = 196.5, Z = 315.0"
+2022-02-12 23:06:37,531 - //action:notification 20m 24s
+2022-02-12 23:06:37,535 - echo:Print time: 20m 24s
+2022-02-12 23:06:37,546 - echo:Unknown command: "X = 227.58, Z = 315.0"
+2022-02-12 23:06:46,177 - //action:notification 20m 32s
+2022-02-12 23:06:46,181 - echo:Print time: 20m 32s
+2022-02-12 23:06:46,212 - echo:Unknown command: "X = 258.67, Z = 315.0"
+2022-02-12 23:06:54,864 - //action:notification 20m 41s
+2022-02-12 23:06:54,868 - echo:Print time: 20m 41s
+2022-02-12 23:06:54,879 - echo:Unknown command: "X = 289.75, Z = 315.0"
+2022-02-12 23:07:03,541 - //action:notification 20m 50s
+2022-02-12 23:07:03,545 - echo:Print time: 20m 50s
+2022-02-12 23:07:03,556 - echo:Unknown command: "X = 320.83, Z = 315.0"
+2022-02-12 23:07:12,186 - //action:notification 20m 58s
+2022-02-12 23:07:12,190 - echo:Print time: 20m 58s
+2022-02-12 23:07:12,201 - echo:Unknown command: "X = 351.92, Z = 315.0"
+2022-02-12 23:07:20,833 - //action:notification 21m 7s
+2022-02-12 23:07:20,837 - echo:Print time: 21m 7s
+2022-02-12 23:07:20,847 - echo:Unknown command: "X = 383.0, Z = 315.0"
+2022-02-12 23:07:31,613 - //action:notification 21m 18s
+2022-02-12 23:07:31,617 - echo:Print time: 21m 18s
+2022-02-12 23:07:31,627 - echo:Unknown command: "X = 10.0, Z = 345.5"
+2022-02-12 23:07:40,258 - //action:notification 21m 26s
+2022-02-12 23:07:40,262 - echo:Print time: 21m 26s
+2022-02-12 23:07:40,273 - echo:Unknown command: "X = 41.08, Z = 345.5"
+2022-02-12 23:07:48,915 - //action:notification 21m 35s
+2022-02-12 23:07:48,919 - echo:Print time: 21m 35s
+2022-02-12 23:07:48,930 - echo:Unknown command: "X = 72.17, Z = 345.5"
+2022-02-12 23:07:57,562 - //action:notification 21m 44s
+2022-02-12 23:07:57,566 - echo:Print time: 21m 44s
+2022-02-12 23:07:57,576 - echo:Unknown command: "X = 103.25, Z = 345.5"
+2022-02-12 23:08:06,223 - //action:notification 21m 52s
+2022-02-12 23:08:06,227 - echo:Print time: 21m 52s
+2022-02-12 23:08:06,238 - echo:Unknown command: "X = 134.33, Z = 345.5"
+2022-02-12 23:08:14,866 - //action:notification 22m 1s
+2022-02-12 23:08:14,870 - echo:Print time: 22m 1s
+2022-02-12 23:08:14,881 - echo:Unknown command: "X = 165.42, Z = 345.5"
+2022-02-12 23:08:23,510 - //action:notification 22m 10s
+2022-02-12 23:08:23,515 - echo:Print time: 22m 10s
+2022-02-12 23:08:23,524 - echo:Unknown command: "X = 196.5, Z = 345.5"
+2022-02-12 23:08:32,151 - //action:notification 22m 18s
+2022-02-12 23:08:32,156 - echo:Print time: 22m 18s
+2022-02-12 23:08:32,167 - echo:Unknown command: "X = 227.58, Z = 345.5"
+2022-02-12 23:08:40,798 - //action:notification 22m 27s
+2022-02-12 23:08:40,803 - echo:Print time: 22m 27s
+2022-02-12 23:08:40,815 - echo:Unknown command: "X = 258.67, Z = 345.5"
+2022-02-12 23:08:49,457 - //action:notification 22m 35s
+2022-02-12 23:08:49,462 - echo:Print time: 22m 35s
+2022-02-12 23:08:49,473 - echo:Unknown command: "X = 289.75, Z = 345.5"
+2022-02-12 23:08:58,103 - //action:notification 22m 44s
+2022-02-12 23:08:58,107 - echo:Print time: 22m 44s
+2022-02-12 23:08:58,118 - echo:Unknown command: "X = 320.83, Z = 345.5"
+2022-02-12 23:09:06,747 - //action:notification 22m 53s
+2022-02-12 23:09:06,752 - echo:Print time: 22m 53s
+2022-02-12 23:09:06,763 - echo:Unknown command: "X = 351.92, Z = 345.5"
+2022-02-12 23:09:15,412 - //action:notification 23m 1s
+2022-02-12 23:09:15,416 - echo:Print time: 23m 1s
+2022-02-12 23:09:15,427 - echo:Unknown command: "X = 383.0, Z = 345.5"
+2022-02-12 23:09:26,195 - //action:notification 23m 12s
+2022-02-12 23:09:26,199 - echo:Print time: 23m 12s
+2022-02-12 23:09:26,210 - echo:Unknown command: "X = 10.0, Z = 376.0"
+2022-02-12 23:09:34,840 - //action:notification 23m 21s
+2022-02-12 23:09:34,844 - echo:Print time: 23m 21s
+2022-02-12 23:09:34,855 - echo:Unknown command: "X = 41.08, Z = 376.0"
+2022-02-12 23:09:43,485 - //action:notification 23m 29s
+2022-02-12 23:09:43,490 - echo:Print time: 23m 29s
+2022-02-12 23:09:43,500 - echo:Unknown command: "X = 72.17, Z = 376.0"
+2022-02-12 23:09:52,133 - //action:notification 23m 38s
+2022-02-12 23:09:52,137 - echo:Print time: 23m 38s
+2022-02-12 23:09:52,148 - echo:Unknown command: "X = 103.25, Z = 376.0"
+2022-02-12 23:10:00,778 - //action:notification 23m 47s
+2022-02-12 23:10:00,782 - echo:Print time: 23m 47s
+2022-02-12 23:10:00,793 - echo:Unknown command: "X = 134.33, Z = 376.0"
+2022-02-12 23:10:09,433 - //action:notification 23m 55s
+2022-02-12 23:10:09,438 - echo:Print time: 23m 55s
+2022-02-12 23:10:09,448 - echo:Unknown command: "X = 165.42, Z = 376.0"
+2022-02-12 23:10:18,087 - //action:notification 24m 4s
+2022-02-12 23:10:18,091 - echo:Print time: 24m 4s
+2022-02-12 23:10:18,101 - echo:Unknown command: "X = 196.5, Z = 376.0"
+2022-02-12 23:10:26,733 - //action:notification 24m 13s
+2022-02-12 23:10:26,738 - echo:Print time: 24m 13s
+2022-02-12 23:10:26,748 - echo:Unknown command: "X = 227.58, Z = 376.0"
+2022-02-12 23:10:35,378 - //action:notification 24m 21s
+2022-02-12 23:10:35,383 - echo:Print time: 24m 21s
+2022-02-12 23:10:35,393 - echo:Unknown command: "X = 258.67, Z = 376.0"
+2022-02-12 23:10:44,026 - //action:notification 24m 30s
+2022-02-12 23:10:44,030 - echo:Print time: 24m 30s
+2022-02-12 23:10:44,040 - echo:Unknown command: "X = 289.75, Z = 376.0"
+2022-02-12 23:10:52,692 - //action:notification 24m 39s
+2022-02-12 23:10:52,695 - echo:Print time: 24m 39s
+2022-02-12 23:10:52,706 - echo:Unknown command: "X = 320.83, Z = 376.0"
+2022-02-12 23:11:01,372 - //action:notification 24m 47s
+2022-02-12 23:11:01,376 - echo:Print time: 24m 47s
+2022-02-12 23:11:01,387 - echo:Unknown command: "X = 351.92, Z = 376.0"
+2022-02-12 23:11:10,015 - //action:notification 24m 56s
+2022-02-12 23:11:10,019 - echo:Print time: 24m 56s
+2022-02-12 23:11:10,029 - echo:Unknown command: "X = 383.0, Z = 376.0"
+2022-02-12 23:11:20,799 - //action:notification 25m 7s
+2022-02-12 23:11:20,803 - echo:Print time: 25m 7s
+2022-02-12 23:11:20,814 - echo:Unknown command: "X = 10.0, Z = 406.5"
+2022-02-12 23:11:29,443 - //action:notification 25m 15s
+2022-02-12 23:11:29,447 - echo:Print time: 25m 15s
+2022-02-12 23:11:29,458 - echo:Unknown command: "X = 41.08, Z = 406.5"
+2022-02-12 23:11:38,102 - //action:notification 25m 24s
+2022-02-12 23:11:38,106 - echo:Print time: 25m 24s
+2022-02-12 23:11:38,116 - echo:Unknown command: "X = 72.17, Z = 406.5"
+2022-02-12 23:11:46,768 - //action:notification 25m 33s
+2022-02-12 23:11:46,773 - echo:Print time: 25m 33s
+2022-02-12 23:11:46,784 - echo:Unknown command: "X = 103.25, Z = 406.5"
+2022-02-12 23:11:55,414 - //action:notification 25m 41s
+2022-02-12 23:11:55,418 - echo:Print time: 25m 41s
+2022-02-12 23:11:55,428 - echo:Unknown command: "X = 134.33, Z = 406.5"
+2022-02-12 23:12:04,070 - //action:notification 25m 50s
+2022-02-12 23:12:04,075 - echo:Print time: 25m 50s
+2022-02-12 23:12:04,085 - echo:Unknown command: "X = 165.42, Z = 406.5"
+2022-02-12 23:12:12,715 - //action:notification 25m 59s
+2022-02-12 23:12:12,719 - echo:Print time: 25m 59s
+2022-02-12 23:12:12,729 - echo:Unknown command: "X = 196.5, Z = 406.5"
+2022-02-12 23:12:21,359 - //action:notification 26m 7s
+2022-02-12 23:12:21,363 - echo:Print time: 26m 7s
+2022-02-12 23:12:21,373 - echo:Unknown command: "X = 227.58, Z = 406.5"
+2022-02-12 23:12:30,015 - //action:notification 26m 16s
+2022-02-12 23:12:30,020 - echo:Print time: 26m 16s
+2022-02-12 23:12:30,030 - echo:Unknown command: "X = 258.67, Z = 406.5"
+2022-02-12 23:12:38,660 - //action:notification 26m 25s
+2022-02-12 23:12:38,664 - echo:Print time: 26m 25s
+2022-02-12 23:12:38,674 - echo:Unknown command: "X = 289.75, Z = 406.5"
+2022-02-12 23:12:47,308 - //action:notification 26m 33s
+2022-02-12 23:12:47,312 - echo:Print time: 26m 33s
+2022-02-12 23:12:47,322 - echo:Unknown command: "X = 320.83, Z = 406.5"
+2022-02-12 23:12:55,951 - //action:notification 26m 42s
+2022-02-12 23:12:55,956 - echo:Print time: 26m 42s
+2022-02-12 23:12:55,966 - echo:Unknown command: "X = 351.92, Z = 406.5"
+2022-02-12 23:13:04,597 - //action:notification 26m 51s
+2022-02-12 23:13:04,602 - echo:Print time: 26m 51s
+2022-02-12 23:13:04,612 - echo:Unknown command: "X = 383.0, Z = 406.5"
+2022-02-12 23:13:15,381 - //action:notification 27m 1s
+2022-02-12 23:13:15,385 - echo:Print time: 27m 1s
+2022-02-12 23:13:15,395 - echo:Unknown command: "X = 10.0, Z = 437.0"
+2022-02-12 23:13:24,025 - //action:notification 27m 10s
+2022-02-12 23:13:24,029 - echo:Print time: 27m 10s
+2022-02-12 23:13:24,040 - echo:Unknown command: "X = 41.08, Z = 437.0"
+2022-02-12 23:13:32,674 - //action:notification 27m 19s
+2022-02-12 23:13:32,678 - echo:Print time: 27m 19s
+2022-02-12 23:13:32,689 - echo:Unknown command: "X = 72.17, Z = 437.0"
+2022-02-12 23:13:41,317 - //action:notification 27m 27s
+2022-02-12 23:13:41,322 - echo:Print time: 27m 27s
+2022-02-12 23:13:41,332 - echo:Unknown command: "X = 103.25, Z = 437.0"
+2022-02-12 23:13:49,976 - //action:notification 27m 36s
+2022-02-12 23:13:49,981 - echo:Print time: 27m 36s
+2022-02-12 23:13:49,991 - echo:Unknown command: "X = 134.33, Z = 437.0"
+2022-02-12 23:13:58,620 - //action:notification 27m 45s
+2022-02-12 23:13:58,625 - echo:Print time: 27m 45s
+2022-02-12 23:13:58,636 - echo:Unknown command: "X = 165.42, Z = 437.0"
+2022-02-12 23:14:07,267 - //action:notification 27m 53s
+2022-02-12 23:14:07,271 - echo:Print time: 27m 53s
+2022-02-12 23:14:07,281 - echo:Unknown command: "X = 196.5, Z = 437.0"
+2022-02-12 23:14:15,931 - //action:notification 28m 2s
+2022-02-12 23:14:15,935 - echo:Print time: 28m 2s
+2022-02-12 23:14:15,945 - echo:Unknown command: "X = 227.58, Z = 437.0"
+2022-02-12 23:14:24,575 - //action:notification 28m 11s
+2022-02-12 23:14:24,580 - echo:Print time: 28m 11s
+2022-02-12 23:14:24,591 - echo:Unknown command: "X = 258.67, Z = 437.0"
+2022-02-12 23:14:33,235 - //action:notification 28m 19s
+2022-02-12 23:14:33,240 - echo:Print time: 28m 19s
+2022-02-12 23:14:33,250 - echo:Unknown command: "X = 289.75, Z = 437.0"
+2022-02-12 23:14:41,891 - //action:notification 28m 28s
+2022-02-12 23:14:41,895 - echo:Print time: 28m 28s
+2022-02-12 23:14:41,906 - echo:Unknown command: "X = 320.83, Z = 437.0"
+2022-02-12 23:14:50,538 - //action:notification 28m 37s
+2022-02-12 23:14:50,542 - echo:Print time: 28m 37s
+2022-02-12 23:14:50,553 - echo:Unknown command: "X = 351.92, Z = 437.0"
+2022-02-12 23:14:59,181 - //action:notification 28m 45s
+2022-02-12 23:14:59,186 - echo:Print time: 28m 45s
+2022-02-12 23:14:59,197 - echo:Unknown command: "X = 383.0, Z = 437.0"
+2022-02-12 23:15:09,965 - //action:notification 28m 56s
+2022-02-12 23:15:09,969 - echo:Print time: 28m 56s
+2022-02-12 23:15:09,980 - echo:Unknown command: "X = 10.0, Z = 467.5"
+2022-02-12 23:15:18,633 - //action:notification 29m 5s
+2022-02-12 23:15:18,637 - echo:Print time: 29m 5s
+2022-02-12 23:15:18,648 - echo:Unknown command: "X = 41.08, Z = 467.5"
+2022-02-12 23:15:27,278 - //action:notification 29m 13s
+2022-02-12 23:15:27,282 - echo:Print time: 29m 13s
+2022-02-12 23:15:27,292 - echo:Unknown command: "X = 72.17, Z = 467.5"
+2022-02-12 23:15:35,924 - //action:notification 29m 22s
+2022-02-12 23:15:35,928 - echo:Print time: 29m 22s
+2022-02-12 23:15:35,939 - echo:Unknown command: "X = 103.25, Z = 467.5"
+2022-02-12 23:15:44,571 - //action:notification 29m 31s
+2022-02-12 23:15:44,575 - echo:Print time: 29m 31s
+2022-02-12 23:15:44,586 - echo:Unknown command: "X = 134.33, Z = 467.5"
+2022-02-12 23:15:53,218 - //action:notification 29m 39s
+2022-02-12 23:15:53,222 - echo:Print time: 29m 39s
+2022-02-12 23:15:53,234 - echo:Unknown command: "X = 165.42, Z = 467.5"
+2022-02-12 23:16:01,878 - //action:notification 29m 48s
+2022-02-12 23:16:01,882 - echo:Print time: 29m 48s
+2022-02-12 23:16:01,892 - echo:Unknown command: "X = 196.5, Z = 467.5"
+2022-02-12 23:16:10,521 - //action:notification 29m 57s
+2022-02-12 23:16:10,525 - echo:Print time: 29m 57s
+2022-02-12 23:16:10,535 - echo:Unknown command: "X = 227.58, Z = 467.5"
+2022-02-12 23:16:19,168 - //action:notification 30m 5s
+2022-02-12 23:16:19,172 - echo:Print time: 30m 5s
+2022-02-12 23:16:19,183 - echo:Unknown command: "X = 258.67, Z = 467.5"
+2022-02-12 23:16:27,816 - //action:notification 30m 14s
+2022-02-12 23:16:27,820 - echo:Print time: 30m 14s
+2022-02-12 23:16:27,831 - echo:Unknown command: "X = 289.75, Z = 467.5"
+2022-02-12 23:16:36,462 - //action:notification 30m 22s
+2022-02-12 23:16:36,467 - echo:Print time: 30m 22s
+2022-02-12 23:16:36,478 - echo:Unknown command: "X = 320.83, Z = 467.5"
+2022-02-12 23:16:45,124 - //action:notification 30m 31s
+2022-02-12 23:16:45,128 - echo:Print time: 30m 31s
+2022-02-12 23:16:45,139 - echo:Unknown command: "X = 351.92, Z = 467.5"
+2022-02-12 23:16:53,780 - //action:notification 30m 40s
+2022-02-12 23:16:53,784 - echo:Print time: 30m 40s
+2022-02-12 23:16:53,794 - echo:Unknown command: "X = 383.0, Z = 467.5"
+2022-02-12 23:17:04,568 - //action:notification 30m 51s
+2022-02-12 23:17:04,572 - echo:Print time: 30m 51s
+2022-02-12 23:17:04,582 - echo:Unknown command: "X = 10.0, Z = 498.0"
+2022-02-12 23:17:13,215 - //action:notification 30m 59s
+2022-02-12 23:17:13,219 - echo:Print time: 30m 59s
+2022-02-12 23:17:13,229 - echo:Unknown command: "X = 41.08, Z = 498.0"
+2022-02-12 23:17:21,865 - //action:notification 31m 8s
+2022-02-12 23:17:21,869 - echo:Print time: 31m 8s
+2022-02-12 23:17:21,880 - echo:Unknown command: "X = 72.17, Z = 498.0"
+2022-02-12 23:17:30,519 - //action:notification 31m 17s
+2022-02-12 23:17:30,523 - echo:Print time: 31m 17s
+2022-02-12 23:17:30,534 - echo:Unknown command: "X = 103.25, Z = 498.0"
+2022-02-12 23:17:39,165 - //action:notification 31m 25s
+2022-02-12 23:17:39,169 - echo:Print time: 31m 25s
+2022-02-12 23:17:39,181 - echo:Unknown command: "X = 134.33, Z = 498.0"
+2022-02-12 23:17:47,814 - //action:notification 31m 34s
+2022-02-12 23:17:47,818 - echo:Print time: 31m 34s
+2022-02-12 23:17:47,829 - echo:Unknown command: "X = 165.42, Z = 498.0"
+2022-02-12 23:17:56,459 - //action:notification 31m 42s
+2022-02-12 23:17:56,463 - echo:Print time: 31m 42s
+2022-02-12 23:17:56,473 - echo:Unknown command: "X = 196.5, Z = 498.0"
+2022-02-12 23:18:05,105 - //action:notification 31m 51s
+2022-02-12 23:18:05,110 - echo:Print time: 31m 51s
+2022-02-12 23:18:05,121 - echo:Unknown command: "X = 227.58, Z = 498.0"
+2022-02-12 23:18:13,813 - //action:notification 32m 0s
+2022-02-12 23:18:13,817 - echo:Print time: 32m 0s
+2022-02-12 23:18:13,828 - echo:Unknown command: "X = 258.67, Z = 498.0"
+2022-02-12 23:18:22,459 - //action:notification 32m 8s
+2022-02-12 23:18:22,463 - echo:Print time: 32m 8s
+2022-02-12 23:18:22,475 - echo:Unknown command: "X = 289.75, Z = 498.0"
+2022-02-12 23:18:31,109 - //action:notification 32m 17s
+2022-02-12 23:18:31,113 - echo:Print time: 32m 17s
+2022-02-12 23:18:31,124 - echo:Unknown command: "X = 320.83, Z = 498.0"
+2022-02-12 23:18:39,754 - //action:notification 32m 26s
+2022-02-12 23:18:39,758 - echo:Print time: 32m 26s
+2022-02-12 23:18:39,770 - echo:Unknown command: "X = 351.92, Z = 498.0"
+2022-02-12 23:18:48,402 - //action:notification 32m 34s
+2022-02-12 23:18:48,406 - echo:Print time: 32m 34s
+2022-02-12 23:18:48,417 - echo:Unknown command: "X = 383.0, Z = 498.0"
+2022-02-12 23:18:59,172 - //action:notification 32m 45s
+2022-02-12 23:18:59,176 - echo:Print time: 32m 45s
+2022-02-12 23:18:59,186 - echo:Unknown command: "X = 10.0, Z = 528.5"
+2022-02-12 23:19:07,814 - //action:notification 32m 54s
+2022-02-12 23:19:07,818 - echo:Print time: 32m 54s
+2022-02-12 23:19:07,829 - echo:Unknown command: "X = 41.08, Z = 528.5"
+2022-02-12 23:19:16,477 - //action:notification 33m 2s
+2022-02-12 23:19:16,481 - echo:Print time: 33m 2s
+2022-02-12 23:19:16,492 - echo:Unknown command: "X = 72.17, Z = 528.5"
+2022-02-12 23:19:25,121 - //action:notification 33m 11s
+2022-02-12 23:19:25,125 - echo:Print time: 33m 11s
+2022-02-12 23:19:25,137 - echo:Unknown command: "X = 103.25, Z = 528.5"
+2022-02-12 23:19:33,776 - //action:notification 33m 20s
+2022-02-12 23:19:33,780 - echo:Print time: 33m 20s
+2022-02-12 23:19:33,791 - echo:Unknown command: "X = 134.33, Z = 528.5"
+2022-02-12 23:19:42,435 - //action:notification 33m 28s
+2022-02-12 23:19:42,439 - echo:Print time: 33m 28s
+2022-02-12 23:19:42,450 - echo:Unknown command: "X = 165.42, Z = 528.5"
+2022-02-12 23:19:51,080 - //action:notification 33m 37s
+2022-02-12 23:19:51,084 - echo:Print time: 33m 37s
+2022-02-12 23:19:51,095 - echo:Unknown command: "X = 196.5, Z = 528.5"
+2022-02-12 23:19:59,725 - //action:notification 33m 46s
+2022-02-12 23:19:59,729 - echo:Print time: 33m 46s
+2022-02-12 23:19:59,741 - echo:Unknown command: "X = 227.58, Z = 528.5"
+2022-02-12 23:20:08,373 - //action:notification 33m 54s
+2022-02-12 23:20:08,377 - echo:Print time: 33m 54s
+2022-02-12 23:20:08,388 - echo:Unknown command: "X = 258.67, Z = 528.5"
+2022-02-12 23:20:17,020 - //action:notification 34m 3s
+2022-02-12 23:20:17,024 - echo:Print time: 34m 3s
+2022-02-12 23:20:17,035 - echo:Unknown command: "X = 289.75, Z = 528.5"
+2022-02-12 23:20:25,680 - //action:notification 34m 12s
+2022-02-12 23:20:25,684 - echo:Print time: 34m 12s
+2022-02-12 23:20:25,695 - echo:Unknown command: "X = 320.83, Z = 528.5"
+2022-02-12 23:20:34,328 - //action:notification 34m 20s
+2022-02-12 23:20:34,332 - echo:Print time: 34m 20s
+2022-02-12 23:20:34,343 - echo:Unknown command: "X = 351.92, Z = 528.5"
+2022-02-12 23:20:42,992 - //action:notification 34m 29s
+2022-02-12 23:20:42,996 - echo:Print time: 34m 29s
+2022-02-12 23:20:43,007 - echo:Unknown command: "X = 383.0, Z = 528.5"
+2022-02-12 23:20:53,776 - //action:notification 34m 40s
+2022-02-12 23:20:53,780 - echo:Print time: 34m 40s
+2022-02-12 23:20:53,790 - echo:Unknown command: "X = 10.0, Z = 559.0"
+2022-02-12 23:21:02,432 - //action:notification 34m 48s
+2022-02-12 23:21:02,436 - echo:Print time: 34m 48s
+2022-02-12 23:21:02,447 - echo:Unknown command: "X = 41.08, Z = 559.0"
+2022-02-12 23:21:11,080 - //action:notification 34m 57s
+2022-02-12 23:21:11,084 - echo:Print time: 34m 57s
+2022-02-12 23:21:11,107 - echo:Unknown command: "X = 72.17, Z = 559.0"
+2022-02-12 23:21:19,735 - //action:notification 35m 6s
+2022-02-12 23:21:19,739 - echo:Print time: 35m 6s
+2022-02-12 23:21:19,750 - echo:Unknown command: "X = 103.25, Z = 559.0"
+2022-02-12 23:21:28,379 - //action:notification 35m 14s
+2022-02-12 23:21:28,384 - echo:Print time: 35m 14s
+2022-02-12 23:21:28,395 - echo:Unknown command: "X = 134.33, Z = 559.0"
+2022-02-12 23:21:37,024 - //action:notification 35m 23s
+2022-02-12 23:21:37,028 - echo:Print time: 35m 23s
+2022-02-12 23:21:37,039 - echo:Unknown command: "X = 165.42, Z = 559.0"
+2022-02-12 23:21:45,669 - //action:notification 35m 32s
+2022-02-12 23:21:45,673 - echo:Print time: 35m 32s
+2022-02-12 23:21:45,684 - echo:Unknown command: "X = 196.5, Z = 559.0"
+2022-02-12 23:21:54,326 - //action:notification 35m 40s
+2022-02-12 23:21:54,330 - echo:Print time: 35m 40s
+2022-02-12 23:21:54,341 - echo:Unknown command: "X = 227.58, Z = 559.0"
+2022-02-12 23:22:02,974 - //action:notification 35m 49s
+2022-02-12 23:22:02,978 - echo:Print time: 35m 49s
+2022-02-12 23:22:02,989 - echo:Unknown command: "X = 258.67, Z = 559.0"
+2022-02-12 23:22:11,656 - //action:notification 35m 58s
+2022-02-12 23:22:11,661 - echo:Print time: 35m 58s
+2022-02-12 23:22:11,678 - echo:Unknown command: "X = 289.75, Z = 559.0"
+2022-02-12 23:22:20,308 - //action:notification 36m 6s
+2022-02-12 23:22:20,312 - echo:Print time: 36m 6s
+2022-02-12 23:22:20,323 - echo:Unknown command: "X = 320.83, Z = 559.0"
+2022-02-12 23:22:28,976 - //action:notification 36m 15s
+2022-02-12 23:22:28,980 - echo:Print time: 36m 15s
+2022-02-12 23:22:28,991 - echo:Unknown command: "X = 351.92, Z = 559.0"
+2022-02-12 23:22:37,632 - //action:notification 36m 24s
+2022-02-12 23:22:37,636 - echo:Print time: 36m 24s
+2022-02-12 23:22:37,647 - echo:Unknown command: "X = 383.0, Z = 559.0"
+2022-02-12 23:22:48,415 - //action:notification 36m 34s
+2022-02-12 23:22:48,419 - echo:Print time: 36m 34s
+2022-02-12 23:22:48,430 - echo:Unknown command: "X = 10.0, Z = 589.5"
+2022-02-12 23:22:57,062 - //action:notification 36m 43s
+2022-02-12 23:22:57,066 - echo:Print time: 36m 43s
+2022-02-12 23:22:57,077 - echo:Unknown command: "X = 41.08, Z = 589.5"
+2022-02-12 23:23:05,708 - //action:notification 36m 52s
+2022-02-12 23:23:05,713 - echo:Print time: 36m 52s
+2022-02-12 23:23:05,723 - echo:Unknown command: "X = 72.17, Z = 589.5"
+2022-02-12 23:23:14,369 - //action:notification 37m 0s
+2022-02-12 23:23:14,373 - echo:Print time: 37m 0s
+2022-02-12 23:23:14,384 - echo:Unknown command: "X = 103.25, Z = 589.5"
+2022-02-12 23:23:23,017 - //action:notification 37m 9s
+2022-02-12 23:23:23,021 - echo:Print time: 37m 9s
+2022-02-12 23:23:23,031 - echo:Unknown command: "X = 134.33, Z = 589.5"
+2022-02-12 23:23:31,665 - //action:notification 37m 18s
+2022-02-12 23:23:31,669 - echo:Print time: 37m 18s
+2022-02-12 23:23:31,679 - echo:Unknown command: "X = 165.42, Z = 589.5"
+2022-02-12 23:23:40,311 - //action:notification 37m 26s
+2022-02-12 23:23:40,315 - echo:Print time: 37m 26s
+2022-02-12 23:23:40,326 - echo:Unknown command: "X = 196.5, Z = 589.5"
+2022-02-12 23:23:48,958 - //action:notification 37m 35s
+2022-02-12 23:23:48,962 - echo:Print time: 37m 35s
+2022-02-12 23:23:48,972 - echo:Unknown command: "X = 227.58, Z = 589.5"
+2022-02-12 23:23:57,606 - //action:notification 37m 44s
+2022-02-12 23:23:57,610 - echo:Print time: 37m 44s
+2022-02-12 23:23:57,621 - echo:Unknown command: "X = 258.67, Z = 589.5"
+2022-02-12 23:24:06,264 - //action:notification 37m 52s
+2022-02-12 23:24:06,268 - echo:Print time: 37m 52s
+2022-02-12 23:24:06,280 - echo:Unknown command: "X = 289.75, Z = 589.5"
+2022-02-12 23:24:14,908 - //action:notification 38m 1s
+2022-02-12 23:24:14,912 - echo:Print time: 38m 1s
+2022-02-12 23:24:14,922 - echo:Unknown command: "X = 320.83, Z = 589.5"
+2022-02-12 23:24:23,551 - //action:notification 38m 10s
+2022-02-12 23:24:23,556 - echo:Print time: 38m 10s
+2022-02-12 23:24:23,566 - echo:Unknown command: "X = 351.92, Z = 589.5"
+2022-02-12 23:24:32,196 - //action:notification 38m 18s
+2022-02-12 23:24:32,200 - echo:Print time: 38m 18s
+2022-02-12 23:24:32,211 - echo:Unknown command: "X = 383.0, Z = 589.5"
+2022-02-12 23:24:42,980 - //action:notification 38m 29s
+2022-02-12 23:24:42,985 - echo:Print time: 38m 29s
+2022-02-12 23:24:42,995 - echo:Unknown command: "X = 10.0, Z = 620.0"
+2022-02-12 23:24:51,624 - //action:notification 38m 38s
+2022-02-12 23:24:51,629 - echo:Print time: 38m 38s
+2022-02-12 23:24:51,640 - echo:Unknown command: "X = 41.08, Z = 620.0"
+2022-02-12 23:25:00,269 - //action:notification 38m 46s
+2022-02-12 23:25:00,273 - echo:Print time: 38m 46s
+2022-02-12 23:25:00,283 - echo:Unknown command: "X = 72.17, Z = 620.0"
+2022-02-12 23:25:08,914 - //action:notification 38m 55s
+2022-02-12 23:25:08,918 - echo:Print time: 38m 55s
+2022-02-12 23:25:08,929 - echo:Unknown command: "X = 103.25, Z = 620.0"
+2022-02-12 23:25:17,559 - //action:notification 39m 4s
+2022-02-12 23:25:17,563 - echo:Print time: 39m 4s
+2022-02-12 23:25:17,575 - echo:Unknown command: "X = 134.33, Z = 620.0"
+2022-02-12 23:25:26,204 - //action:notification 39m 12s
+2022-02-12 23:25:26,208 - echo:Print time: 39m 12s
+2022-02-12 23:25:26,219 - echo:Unknown command: "X = 165.42, Z = 620.0"
+2022-02-12 23:25:34,860 - //action:notification 39m 21s
+2022-02-12 23:25:34,864 - echo:Print time: 39m 21s
+2022-02-12 23:25:34,874 - echo:Unknown command: "X = 196.5, Z = 620.0"
+2022-02-12 23:25:43,523 - //action:notification 39m 30s
+2022-02-12 23:25:43,528 - echo:Print time: 39m 30s
+2022-02-12 23:25:43,538 - echo:Unknown command: "X = 227.58, Z = 620.0"
+2022-02-12 23:25:52,168 - //action:notification 39m 38s
+2022-02-12 23:25:52,172 - echo:Print time: 39m 38s
+2022-02-12 23:25:52,183 - echo:Unknown command: "X = 258.67, Z = 620.0"
+2022-02-12 23:26:00,816 - //action:notification 39m 47s
+2022-02-12 23:26:00,820 - echo:Print time: 39m 47s
+2022-02-12 23:26:00,831 - echo:Unknown command: "X = 289.75, Z = 620.0"
+2022-02-12 23:26:09,461 - //action:notification 39m 55s
+2022-02-12 23:26:09,465 - echo:Print time: 39m 55s
+2022-02-12 23:26:09,476 - echo:Unknown command: "X = 320.83, Z = 620.0"
+2022-02-12 23:26:18,107 - //action:notification 40m 4s
+2022-02-12 23:26:18,111 - echo:Print time: 40m 4s
+2022-02-12 23:26:18,122 - echo:Unknown command: "X = 351.92, Z = 620.0"
+2022-02-12 23:26:26,752 - //action:notification 40m 13s
+2022-02-12 23:26:26,756 - echo:Print time: 40m 13s
+2022-02-12 23:26:26,766 - echo:Unknown command: "X = 383.0, Z = 620.0"
+2022-02-12 23:26:34,825 - Print ended at: 23:26:34 and took 0:40:21

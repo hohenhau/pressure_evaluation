@@ -1,0 +1,12 @@
+# Experiment: Single-point multi-hole probe measurements at various wind tunnel fan RPMs
+# Scripts: run_interpolate, run_multi_hole_velocity, and run_multi_hole_time_frames
+# specify sensor names and usage:
+sensor_list[8] = 'REF straight 3 downstream to scanner'
+sensor_list[16] = 'vanes downstream close'
+sensor_list[17] = 'vanes downstream far'
+sensor_list[18] = 'straight 1 upstream'
+sensor_list[19] = 'straight 1 downstream'
+sensor_list[20] = 'straight 2 downstream'
+sensor_list[21] = 'straight 3 upstream'
+sensor_list[22] = 'straight 4 upstream'
+sensor_list[23] = 'straight 4 downstream'
