@@ -5,7 +5,7 @@ from pathlib import Path
 import shutil
 import var_locations
 
-print('Are you sure you want to clear the folder? These deletes all generated files... (type \'yes\')')
+print('Are you sure you want to clear the folder? This will delete all generated files... (type \'yes\')')
 confirmation = str(input()).strip().lower()
 if confirmation != 'yes':
     print('Cancelling...')
