@@ -1,5 +1,6 @@
 # Pressure Evaluation
-Scripts to evaluate and process pressure data from multi-hole probes, pressure rakes and pitot tubes
+
+In wind tunnel experiments, pressure measurements are of great interest. The [dynamic pressure](https://en.wikipedia.org/wiki/Dynamic_pressure) can be used to estimate flow velocities and the [total pressure](https://en.wikipedia.org/wiki/Total_pressure) is an indicator of energy losses in the system. These pressures are captured by a range of different devices, such as [Pitot Tubes](https://en.wikipedia.org/wiki/Pitot_tube) or [Pressure Taps](https://www.grc.nasa.gov/www/k-12/airplane/tunpsm.html). The analogue pressures are the digitised using force transduces in devices known as [Pressure Scanners](https://www.surreysensors.com/products/pressure-scanner/). The scripts presented herein are used to process this digital data taken from the various measurement devices.
 
 ![alt text](https://github.com/hohenhau/pressure_evaluatio/blob/main/_process_diagram.png?raw=true)
 
