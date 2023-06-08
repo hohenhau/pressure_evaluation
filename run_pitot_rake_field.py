@@ -55,6 +55,9 @@ if no_edges is True or no_corners_1 is True or no_corners_3 is True:
     df_field_trimmed = calculate_average_field_values(df_processed_trimmed)
 
 df_graph = GraphBundle(np.array(df_processed['probe_x']), np.array(df_processed['probe_y']))
+df_graph.normalise = var_variables.pitot_normalise
+df_graph.norm_factor = var_variables.pitot_norm_factor
+df_graph.normalised_limits = var_variables.pitot_norm_limits
 df_graph.x_axis_label, df_graph.y_axis_label = str("horizontal coordinate (mm)"), str("vertical coordinate (mm)")
 for array_name, plot_limits in zip(pitot_rake_export_graph, pitot_rake_export_limits):
     if heat is False and scat is False and cont is False:
@@ -62,6 +65,8 @@ for array_name, plot_limits in zip(pitot_rake_export_graph, pitot_rake_export_li
     array = np.array(df_processed[array_name])
     df_graph.limits = plot_limits
     df_graph.data = np.array(df_processed[array_name]).flatten()
+    if df_graph.normalise is True:
+        normalise_data(df_graph)
     df_graph.data_pivot[df_graph.y_index, df_graph.x_index] = df_graph.data
     graph_labels(df_graph, array_name, None)
     if heat:

@@ -3,7 +3,7 @@
 
 # Parameters to *INTERPOLATE* the initial calibration (run_interpolate)
 original_size = 3.0     # specify the calibration cell size in degrees
-interp_size = 0.2       # specify the interpolation cell size in degrees
+interp_size = 1.0       # specify the interpolation cell size in degrees
 
 
 # Parameters to *MODIFY PRINTER COORDINATES*
@@ -12,7 +12,6 @@ flip_y = False          # flip coordinates vertically
 no_edges = False        # ignore the outer measurements in calculating the averages
 no_corners_1 = False    # ignore single point located in each corner
 no_corners_3 = False    # ignore the three points located in each corner
-
 
 # Parameters to *CONVERT MULTI-HOLE PRESSURES TO VELOCITIES* (run_multi_hole_velocity)
 switch_y_and_z = True
@@ -24,6 +23,9 @@ multi_hole_export_field = ['probe_x', 'probe_y', 'yaw_avg', 'pitch_avg', 'veloci
 multi_hole_export_average = ['yaw_avg', 'pitch_avg', 'velocity_mag_avg', 'velocity_x_avg', 'velocity_x_std',
                              'velocity_y_avg', 'velocity_z_avg', 'turb_int_avg']
 multi_hole_export_graph = ['velocity_mag_avg', 'velocity_x_avg', 'velocity_y_avg', 'velocity_z_avg', 'turb_int']
+multi_hole_normalise = False
+multi_hole_norm_factor = 32
+multi_hole_norm_limits = [None, None]
 multi_hole_export_limits = [[None, None], [None, None], [None, None], [None, None], [None, None]]
 mh_glyph, mh_scat, mh_heat, mh_cont = True, True, True, True
 
@@ -45,6 +47,9 @@ offset_in_x = True
 pitot_rake_export_field = ['probe_x', 'probe_y', 'V_avg', 'P_avg', 'V_std', 'P_std', 'V_cov', 'P_cov']
 pitot_rake_export_average = ['V_avg', 'P_avg', 'V_std', 'P_std', 'V_cov', 'P_cov']
 pitot_rake_export_graph = ['V_avg', 'V_std', 'V_cov']
+pitot_normalise = True
+pitot_norm_factor = 18.36
+pitot_norm_limits = [None, None]
 pitot_rake_export_limits = [[None, None], [None, None], [None, None], [None, None], [None, None]]
 pr_scat, pr_heat, pr_cont = True, True, True
 

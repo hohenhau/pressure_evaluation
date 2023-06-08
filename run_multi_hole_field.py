@@ -53,6 +53,9 @@ if no_edges is True or no_corners_1 is True or no_corners_3 is True:
 
 
 df_graph = GraphBundle(np.array(df_processed['probe_x']), np.array(df_processed['probe_y']))
+df_graph.normalise = var_variables.multi_hole_normalise
+df_graph.norm_factor = var_variables.multi_hole_norm_factor
+df_graph.normalised_limits = var_variables.multi_hole_norm_limits
 df_graph.x_axis_label, df_graph.y_axis_label = str("horizontal coordinate (mm)"), str("vertical coordinate (mm)")
 for array_name, plot_limits in zip(multi_hole_export_graph, pitot_rake_export_limits):
     if heat is False and scat is False and cont is False:
@@ -60,6 +63,8 @@ for array_name, plot_limits in zip(multi_hole_export_graph, pitot_rake_export_li
     array = np.array(df_processed[array_name])
     df_graph.limits = plot_limits
     df_graph.data = np.array(df_processed[array_name]).flatten()
+    if df_graph.normalise is True:
+        normalise_data(df_graph)
     df_graph.data_pivot[df_graph.y_index, df_graph.x_index] = df_graph.data
     graph_labels(df_graph, array_name, None)
     if heat:
@@ -77,6 +82,8 @@ if glyph:
     df_graph.data = np.array(df_processed['velocity_x_avg']).flatten()
     df_graph.data_y = np.array(df_processed['velocity_y_avg']).flatten()
     df_graph.data_z = np.array(df_processed['velocity_z_avg']).flatten()
+    if df_graph.normalise is True:
+        normalise_data(df_graph)
     df_graph.data_pivot[df_graph.y_index, df_graph.x_index] = df_graph.data
     graph_labels(df_graph, 'velocity_x_avg', None)
     file_name = str(f'{processed_directory}/{time_directory}/figure_glyph_x_yz_{time_directory}')

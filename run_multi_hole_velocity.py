@@ -2,7 +2,6 @@
 """This Python script takes the raw measurement log files relating to a multi-hole probe, and estimates the
 experimental velocity components. Printer log locations are also reformatted for ease of access"""
 
-import os
 from func_import_export import *
 import var_locations
 import var_variables

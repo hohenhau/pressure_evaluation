@@ -7,7 +7,7 @@ class PointGrid:
         x_array, y_array = np.array(x_array), np.array(y_array)
         x_min = float(min(x_array))
         x_max = float(max(x_array))
-        y_min = float(min(y_array))
+        y_mior = float(min(y_array))
         y_max = float(max(y_array))
         self.n_rows = int(math.ceil(y_max - y_min) / cell_size) + 1
         self.n_columns = int(math.ceil((x_max - x_min) / cell_size)) + 1
