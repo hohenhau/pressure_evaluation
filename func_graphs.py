@@ -91,10 +91,11 @@ def tick_generator(num_low, num_high):
 
 
 def normalise_data(df_graph):
-    df_graph.x_values = df_graph.x_values / df_graph.norm_factor    # normalise x coordinates
-    df_graph.y_values = df_graph.y_values / df_graph.norm_factor    # normalise y coordinates
-    df_graph.unique_x = df_graph.unique_x / df_graph.norm_factor    # normalise unique x coordinates
-    df_graph.unique_y = df_graph.unique_y / df_graph.norm_factor    # normalise unique y coordinates
+    print('normalising contours')
+    df_graph.data = df_graph.data / df_graph.norm_factor            # normalise data
+    df_graph.data_x = df_graph.data_x / df_graph.norm_factor        # normalise data
+    df_graph.data_y = df_graph.data_y / df_graph.norm_factor        # normalise data
+    df_graph.data_z = df_graph.data_z / df_graph.norm_factor        # normalise data
     df_graph.limits[0] = df_graph.normalised_limits[0]              # change limits
     df_graph.limits[1] = df_graph.normalised_limits[1]              # change limits
 
@@ -102,10 +103,8 @@ def normalise_data(df_graph):
 def check_limits(df_graph):
     lim_low, lim_high, data = df_graph.limits[0], df_graph.limits[1], np.array(df_graph.data)
     min_data, max_data = np.amin(data), np.amax(data)
-    if df_graph.normalise is True:
-        normalise_data(df_graph)
     if lim_low is None and lim_high is None:
-        ticks = tick_generator(min_data, max_data )            # generate ticks for colour bar
+        ticks = tick_generator(min_data, max_data)            # generate ticks for colour bar
     elif lim_low is None:
         print(f"upper limit is forced below {lim_high}")                # print message to console
         ticks = tick_generator(np.amin(data), lim_high)                 # generate ticks for colour bar
