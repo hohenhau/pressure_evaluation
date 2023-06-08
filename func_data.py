@@ -2,12 +2,14 @@
 sensing devices"""
 
 from scipy.interpolate import interp2d
+from sklearn.neighbors import BallTree
+from scipy.spatial import cKDTree
 import pandas as pd
 import numpy as np
 import datetime
 
 
-def interpolate_2d_grid(graph_bundle_raw, graph_data_interp):  # interpolate data using Delaunay triangulation
+def interpolate_2d_grid(graph_bundle_raw, graph_data_interp):  # interpolation data using Delaunay triangulation
     x_in = graph_bundle_raw.unique_x
     y_in = graph_bundle_raw.unique_y
     z_in = graph_bundle_raw.data_pivot
@@ -91,6 +93,39 @@ def calculate_dimensionless_pressure(data_frame):
         data_frame.rename(columns={old_column: new_column}, inplace=True)
 
 
+def closest_match_euclidean(value, lookup_table):  # fastest after testing other matching functions below
+    match_array = np.sum((value - lookup_table) ** 2, axis=1)
+    closest_match_idx = np.argmin(match_array)
+    closest_match_val = match_array[closest_match_idx]
+    return closest_match_idx, closest_match_val
+
+
+def closest_match_gpt(value, lookup_table):
+    min_distance = float('inf')
+    closest_entry, closest_index = None, None
+    for index, entry in enumerate(lookup_table):
+        distance = np.linalg.norm(value - entry)
+        if distance < min_distance:
+            min_distance = distance
+            closest_index = index
+            closest_entry = entry
+    return closest_index, closest_entry
+
+
+def closest_match_kd_tree(value, lookup_table):
+    tree = cKDTree(lookup_table)
+    _, closest_index = tree.query(value)
+    closest_entry = lookup_table[closest_index]
+    return closest_index, closest_entry
+
+
+def closest_match_ball_tree(value, lookup_table):
+    tree = BallTree(lookup_table)
+    _, closest_index = tree.query([value])
+    closest_entry = lookup_table[closest_index[0]]
+    return closest_index, closest_entry
+
+
 def calculate_pitch_and_yaw(df_experiment, df_interpolation):
     resolution_pitch = abs(df_interpolation['pitch'].iat[1, 0]-df_interpolation['pitch'].iat[2, 0])
     resolution_yaw = abs(df_interpolation['yaw'].iat[1, 0] - df_interpolation['yaw'].iat[2, 0])
@@ -116,9 +151,7 @@ def calculate_pitch_and_yaw(df_experiment, df_interpolation):
     interpolation_yaw = np.array(df_interpolation['yaw'])
 
     for index, c_p_point in enumerate(c_p_experiment, start=1):
-        match_array = np.sum((c_p_point - c_p_interpolation) ** 2, axis=1)
-        closest_match_idx = np.argmin(match_array)
-        closest_match_val = match_array[closest_match_idx]
+        closest_match_idx, closest_match_val = closest_match_ball_tree(c_p_point, c_p_interpolation)
         c_p_static = np.append(c_p_static, interpolation_c_p_static[closest_match_idx])
         c_p_total = np.append(c_p_total, interpolation_c_p_total[closest_match_idx])
         pitch = np.append(pitch, interpolation_pitch[closest_match_idx])
@@ -502,6 +535,4 @@ def calculate_average_field_values(data_frame):
     return df_fields
 
 
-
 # end of code
-
